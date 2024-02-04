@@ -5,7 +5,7 @@ const Hero = () => {
 
     return (
         <main className={styles.main}>
-            <h1 className={styles.logo} href="#">haya<span className={styles.dot}>.|</span></h1>
+            <h1 className={styles.logo} href="#">haya<span className={styles.dot}>.</span></h1>
             <p className={styles.slogan}>// eleve o potencial do seu negócio com sites únicos e dinâmicos</p>
             <div className={styles.img_wrapper}>
                 <Image

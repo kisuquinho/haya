@@ -13,6 +13,21 @@
 
     .dot {
         color: var(--clr-primary);
+
+        &::after {
+            content: '|';
+            animation: typing .5s linear infinite alternate;
+            opacity: .5;
+        }
+    }
+}
+
+@keyframes typing {
+    0%, 50% {
+        opacity: 0;
+    }
+    51%, 100% {
+        opacity: 1;
     }
 }
 
