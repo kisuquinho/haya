@@ -22,7 +22,7 @@ const Header = () => {
                 <div className={styles.divider}></div>
                 <Link href={hrefWork} className={pathName === hrefWork ? 'active' : 'disabled'} key="portfolio">Portfólio</Link>
             </nav>
-            <a className={styles.a} href="http://" target="_blank" rel="noopener noreferrer">Contato</a>
+            <a className={styles.a} href="https://api.whatsapp.com/send?phone=5533999904680&text=Olá!" target="_blank" rel="noopener noreferrer">Contato</a>
         </header>
     )
 }

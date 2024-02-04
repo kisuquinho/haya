@@ -7,11 +7,12 @@ const Hero = () => {
         <main className={styles.main}>
             <h1 className={styles.logo} href="#">haya<span className={styles.dot}>.</span></h1>
             <p className={styles.slogan}>// eleve o potencial do seu negócio com sites únicos e dinâmicos</p>
-            <div className={styles.img_wrapper}>
+            <div className={styles.main_bg_wrapper}>
                 <Image
+                    className={styles.main_bg}
                     src="/gradient.png"
-                    height={252}
-                    width={1044}
+                    height={256}
+                    width={1048}
                     quality={100}
                     alt="gradient bg"
                     priority
