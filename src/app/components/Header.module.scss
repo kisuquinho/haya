@@ -1,6 +1,6 @@
 .header {
     margin: 0 auto;
-    max-width: 1048px;
+    max-width: 1096px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,7 +9,7 @@
     right: 0;
     top: 36px;
     border-radius: 2px;
-    border: 1px solid var(--clr-neutral-100);
+    border: 2px solid var(--clr-neutral-100);
     background: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
     z-index: 10;
